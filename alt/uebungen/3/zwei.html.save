@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<style>
+body {
+	display: grid;
+	grid-template: 1fr 3fr / 1fr 3fr 1fr;
+}
+.site {display: grid;grid-template-columns: 1fr;grid-template-rows: auto 1fr 3fr 2fr 1fr;grid-template-areas:"header""title"           "main"           "sidebar"           "footer";}.masthead { grid-area: header; }.page-title { grid-area: title; }.main-content { grid-area: main; }.sidebar { grid-area: sidebar; }.footer { grid-area: footer; }@media screen and (min-width: 34em){   .site {grid-template-columns:  2fr 1fr;grid-template-areas:"title title"               "main header"               "main sidebar"               "footer footer";   }}
+</style>
+</head>
+<body>
+
+    <div id="header" style="background-color: #ff2500;"></div>
+    <div id="left" style="background-color: #2cee27;"></div>
+    <div id="main" style="background-color: #0533ff;"></div>
+    <div id="right" style="background-color: #ea3efe;"></div>
+
+</body>
+</html>
+

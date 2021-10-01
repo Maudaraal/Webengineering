@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<style>
+body {
+	display: flex;
+	flex-flow: row wrap;
+}
+#header {
+	height: 30vh;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 40px; 
+	margin-right: 40px;
+	flex: 100%;
+}
+#header {
+	background: #ff2500;
+}
+#left, #right, #main {
+	height: calc(100vh - 30vh - 60px);
+	margin:10px;
+	margin-bottom: 20px;
+}
+#left {
+	margin-left: 40px; 
+	flex-grow: 1;
+}
+#right {
+	margin-right: 40px;
+	flex-grow: 1;
+}
+#main {
+	flex-grow: 4;
+}
+@media (max-width: 1000px) {
+	#header {
+		height: 30vh;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-left: 20px; 
+		margin-right: 20px;
+	}
+	#main, #left {
+		margin-bottom: 5px;
+		}
+	#main {
+		margin-left: 5px;
+		margin-right: 20px;
+		flex-grow: 3; 
+	}
+	#left {
+		margin-right: 5px;
+		margin-left: 20px;
+	}
+	#right { 
+		height: 20vh;
+		margin-top: 5px;
+		margin-bottom: 10px;
+		margin-left: 20px; 
+		margin-right: 20px;
+		flex: 100%;
+	}
+}
+@media (max-width: 600px) {
+	#header {
+		height: 20vh;
+		margin-top: 5px;
+		margin-left: 5px; 
+		margin-right: 5px;
+		margin-bottom: 0px;
+	}
+	#main, #left {
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		flex: 100%; 
+	}
+	#main {
+		height: 100vh;
+	}
+	#left {
+		height: 20vh;
+	}
+	#right { 
+		height: 20vh;
+		margin-left: 5px; 
+		margin-top: 0px;
+		margin-right: 5px;
+		margin-bottom: 5px;
+		flex: 100%;
+	}
+}
+</style>
+</head>
+<body>
+
+    <div id="header" style="background-color: #ff2500;"></div>
+    <div id="left" style="background-color: #2cee27;"></div>
+    <div id="main" style="background-color: #0533ff;"></div>
+    <div id="right" style="background-color: #ea3efe;"></div>
+
+</body>
+</html>
+
