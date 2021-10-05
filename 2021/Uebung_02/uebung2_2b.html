@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div {
+	border: 1px solid black;
+    width: -webkit-fit-content;
+  	width: -moz-fit-content;
+  	width: fit-content;
+}
+.switch:checked ~ div .hidden
+{
+   visibility: visible;
+}
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+</style>
+</head>
+<body>
+
+<h1> Übung 2.2 </h1>
+
+<input class="switch" type="checkbox"> hide and show via checkbox
+<div>
+<div style="visibility:hidden">
+	<img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Hochschule_Bonn-Rhein-	Sieg_Wolfgang_G%C3%B6ddertz_Induktion.jpg" alt="Induktion…?" class="responsive 			hidden" width="600" height="400">
+</div>
+</div>
+</body>
+</html>
+
+

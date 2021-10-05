@@ -1,0 +1,22 @@
+· HTML steht für Hyper Text Markup Language
+· HTML ist die Standard Markup Sprache um Webseiten zu kreieren
+· HTML beschreibt die Struktur einer Webseite
+· HTML besteht aus einer Reihe von Elementen
+· HTML-Elemente sagen dem Browser wie er den Inhalt darzustellen hat
+· HTML-Elemente beschreiben Teile des Inhalts als "dies ist die Überschrift", "dies ist ein Absatz", "dies ist ein Link", etc
+
+Man erstellt eine geordnete Liste, darin erstellt man dann eine zweite geordnete Liste und darin erstellt man dann die dritte geordnete Liste.
+
+Eine Tabelle in HTML besteht aus Zellen innerhalb von Reihen und Spalten.
+Jede Tabellenzelle ist definiert durch <td> und </td>. td steht für table data. Alles dazwischen ist der Inhalt der Zelle.
+Jede Tabellenreihe startet mit <tr> und endet mit </tr>. tr steht für table row.
+
+Man muss beachten, dass es relative und absolute Dateipfade gibt und man es ist best practice, dass man relative verwendet.
+
+Das src-Attribut spezifiziert den Dateipfad zum Bild.
+Das alt-Attribut liefert einen Alternativtext zum Bild, im Falle, dass ein Benutzer das Bild nicht anschauen kann.
+Mit dem style-Attribut kann man die Breite und Höhe eines Bildes angeben.
+
+Fehlende Zugriffsberechtigung.
+
+Ein Menü baut man mit Hilfe von verschachtelten Listen, bei denen Links auf die Unterseiten hinterlegt sind.
